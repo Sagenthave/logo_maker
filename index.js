@@ -1,6 +1,16 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+class Shapes {
+    constructor (colour) {
+        this.colour = colour;
+    }
+    getColour (userColour) {
+        this.colour = userColour
+    }
+}
+
+
 function getColorCode(colorName) {
   switch (colorName) {
     case 'blue':
@@ -63,11 +73,13 @@ class Logo {
 // Questions for user input
 const questions = [
   {
-    message: 'Enter up to three characters',
+    message: 'Enter only up to three characters',
     type: 'input',
     name: 'initials',
-  },
-  {
+    validate: (initials) => 
+        initials.length <= 3 || "ERROR. Please only put up to 3 characters"
+},
+{
     message: 'What shape would you like?',
     type: 'list',
     name: 'shape',
@@ -99,6 +111,10 @@ function generateSvg() {
   inquirer
     .prompt(questions)
     .then(answers => {
+        // let shape = new Circle();
+        // shape.getColour(answers.shapeColor)
+        // console.log(shape)
+        // TRY TO FIGURE OUT HOW TO PASS TEST AND ADD SHAPE CLASSES
       const logo = new Logo();
       logo.text = answers.initials;
       logo.shape = answers.shape;

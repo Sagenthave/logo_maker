@@ -26,5 +26,5 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Deployment 
 - Github: https://github.com/Sagenthave/logo_maker/blob/main/index.js 
-- Video Tutorial: 
+- Video Tutorial: https://drive.google.com/file/d/1c7uDlg39A_J62dqgL5vnl62W0s6Wm0de/view 
 

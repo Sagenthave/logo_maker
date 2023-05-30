@@ -22,7 +22,7 @@ WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Assistance
-- Krishna (Assistant Instructor): Assisted with debugging and helping me understand the concepts of the library and file system. 
+- Krishna (Assistant Instructor): Assisted with debugging and helped me understand the concepts of the library and file system. 
 
 ## Deployment 
 - Github: https://github.com/Sagenthave/logo_maker/blob/main/index.js 

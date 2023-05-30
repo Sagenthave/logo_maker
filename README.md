@@ -23,8 +23,9 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Assistance
 - Krishna (Assistant Instructor): Assisted with debugging and helped me understand the concepts of the library and file system. 
+- Katherine Redford (Tutor): Helped me get started with tests.
 
 ## Deployment 
 - Github: https://github.com/Sagenthave/logo_maker/blob/main/index.js 
-- Video Tutorial: https://drive.google.com/file/d/1c7uDlg39A_J62dqgL5vnl62W0s6Wm0de/view 
+- Video Tutorial: https://drive.google.com/file/d/1bnzQXV00x4up-NhJBtv8vIV-UQTdepKR/view 
 
